@@ -1,0 +1,267 @@
+.login-card {
+    background-color: #1e1e1e; 
+    color: white;
+    border: 2px solid #3b3b3b;
+    box-shadow: 0 0 10px #3b3b3b, 0 0 25px #3b3b3b;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    border-radius: 12px;
+}
+.login-bg1 {
+    background-color: #1e1e1e;
+    padding-top: 2rem;
+    background-image: url("bg1.jpg");
+    background-size: cover;        
+    background-position: center;    
+    background-repeat: no-repeat;   
+}
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #f8f8f8;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px #2a030388;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+  
+p {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.1rem;
+    color: #ccc;
+    text-align: center;
+}
+.login {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-bg {
+    background-color: #000000;
+}
+
+.search-bar {
+    background-color: whitesmoke;
+    color: #7851A9;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+.nav1 {
+    background-color: #121212 !important;
+    color: #7851A9 !important;
+    padding-left: 2rem;
+    text-align: center;
+    font-family: "Special Gothic", sans-serif;
+    font-size: large;
+}
+.nav1 a,
+.nav1 .navbar-brand,
+.nav1 .nav-link,
+.nav1 .dropdown-item {
+  color: #7851A9 !important;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: #7851A9 !important;
+    text-shadow: 0 0 10px #2a030388;
+    margin-right: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.nav-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #7851A9 !important;
+    margin-right: 1.5rem;
+}
+.movie-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(255,255,255,0.2);
+    z-index: 1;
+}
+
+.movie-hero {
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .faded-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3) blur(2px);
+    z-index: -1;
+  }
+  
+  .movie-hero .container {
+    z-index: 1;
+    position: relative;
+    display: flex;
+  }
+  .movie-poster{
+    height: 450px;
+  }
+  .movie-details{
+    margin-left: -40px;
+    text-align: left !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+  }
+  .header{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1rem;
+  }
+  .actor-cards::-webkit-scrollbar {
+    height: 8px;
+  }
+  .actor-cards::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  .actor-cards::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .actor-cards img {
+    object-fit: cover;
+    height: 220px;
+  }
+  
+  .navbar .dropdown-toggle::after {
+    display: none !important;
+  }
+  
+  .tv-header {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.95)), url('<?= $backdrop ?>');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+  }
+  .poster-img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  }
+  .backdrop {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    filter: brightness(0.4);
+  }
+  .main-bg {
+    background-color: #121212;
+  }
+.rater{
+  display: inline-flexbox;
+}
+
+.com {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.main-bg-settings {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #121212;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  background-color: #575757;
+}
+.sidebar .logout-btn {
+  position: absolute;
+  margin-left: -20px;
+  bottom: 20px;
+  width: 100%;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.main-bg-settings {
+  background-color: #282828;
+  color: white;
+}
+
+.modal-content.bg-dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.rating-card {
+    display: flex;
+    position: relative; 
+    padding: 15px;
+}
+
+.rating-card img {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.rating-card .card-content {
+    flex-grow: 1; 
+}
+
+.rating-card .rating {
+    position: absolute; 
+
+}
+.list-group-item {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+  background-color: #1e1e1e !important;
+}
+.pfp {
+  color: #fff
+}
+.pfp:hover {
+  text-decoration: underline !important;
+}
